@@ -1,0 +1,2 @@
+class RecentlyViewedController < ApplicationController
+end

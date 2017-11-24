@@ -1,0 +1,2 @@
+class TermsConditionsController < ApplicationController
+end

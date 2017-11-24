@@ -1,0 +1,21 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.jumbotron{
+  align-items: center;
+}
+
+header {
+    vertical-align: middle;
+}
+
+#footerLinks {
+    position:relative;
+    top:22px;
+    right:15px;
+}
+
+#footerRight {
+    position:relative;
+    right:-15px;
+}

@@ -1,0 +1,2 @@
+class AttyTalkController < ApplicationController
+end
