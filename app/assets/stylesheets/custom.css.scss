@@ -425,6 +425,9 @@ a:active {
         .display-3{
             font-size: 15px;
         }
+        .display-4 {
+            font-size: 15px;
+        }
         .lead {
             font-size: 15px;
         }
@@ -441,6 +444,9 @@ a:active {
         height: 300px;
         width: 850px;
         .display-3{
+            font-size: 15px;
+        }
+        .display-4 {
             font-size: 15px;
         }
         .lead {
@@ -461,6 +467,9 @@ a:active {
         .display-3{
             font-size: 15px;
         }
+        .display-4 {
+            font-size: 15px;
+        }
         .lead {
             font-size: 15px;
         }
@@ -473,3 +482,249 @@ a:active {
     }
 }
 
+.exploresidebar {
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+
+/* atty talk */
+
+.attytalkitems {
+    .item1 {
+         background-color: lightgray;
+        font-family: "Courier New", Times, serif;
+        height: 300px;
+        width: 850px;
+        .display-3{
+            font-size: 15px;
+        }
+        .display-4 {
+            font-size: 15px;
+        }
+        .lead {
+            font-size: 15px;
+        }
+        .subtitle_button {
+            font-size: 15px;
+            .my-4 {
+              font-size: 15px;
+             }
+        }
+    }
+}
+
+/* about */
+
+.about {
+    font-size: 15px;
+    font-family: "Courier New", Times, serif;
+}
+
+/* wishlist */
+
+.items_wishlist {
+    position: relative;
+    top: 20px;
+    .item1 {
+        text-align: center;
+        position: relative;
+        right: -300px;
+        top: -25px;
+        background-color: lightgray;
+        width: 250px;
+        height: 400px;
+        .display-3 {
+            font-size: 15px;
+        }
+        .display-4 {
+            font-size: 15px;
+        }
+        
+    }
+    .item2 {
+        text-align: center;
+        position: relative;
+        right: -600px;
+        top: -445px;
+        background-color: lightgray;
+        width: 250px;
+        height: 400px;
+        .display-3 {
+            font-size: 15px;
+        }
+        .display-4 {
+            font-size: 15px;
+        }
+    }
+    .item3 {
+        text-align: center;
+        position: relative;
+        right: -900px;
+        top: -865px;
+        background-color: lightgray;
+        width: 250px;
+        height: 400px;
+        .display-3 {
+            font-size: 15px;
+        }
+        .display-4 {
+            font-size: 15px;
+        }
+    }
+    .item4 {
+        text-align: center;
+        position: relative;
+        right: -300px;
+        top: -840px;
+        background-color: lightgray;
+        width: 250px;
+        height: 400px;
+        .display-3 {
+            font-size: 15px;
+        }
+        .display-4 {
+            font-size: 15px;
+        }
+    }
+    .item5 {
+        text-align: center;
+        position: relative;
+        right: -600px;
+        top: -1260px;
+        background-color: lightgray;
+        width: 250px;
+        height: 400px;
+        .display-3 {
+            font-size: 15px;
+        }
+        .display-4 {
+            font-size: 15px;
+        }
+    }
+    .item6 {
+        text-align: center;
+        position: relative;
+        right: -900px;
+        top: -1680px;
+        background-color: lightgray;
+        width: 250px;
+        height: 400px;
+        .display-3 {
+            font-size: 15px;
+        }
+        .display-4 {
+            font-size: 15px;
+        }
+    }
+}
+
+/* terms and conditions */
+
+.terms_conditions {
+    font-family: "Courier New", Times, serif;
+    font-size: 15px;
+}
+
+/* recently viewed */
+
+.recently_viewed {
+    font-family: "Courier New", Times, serif;
+    font-size: 15px;
+    position: relative;
+    top: 80px;
+    left: 20px;
+    .items_recently_viewed {
+        .item1 {
+            text-align: center;
+            position: relative;
+            right: -300px;
+            top: -25px;
+            background-color: lightgray;
+            width: 250px;
+            height: 400px;
+            .display-3 {
+                font-size: 15px;
+            }
+            .display-4 {
+                font-size: 15px;
+            }
+            
+        }
+        .item2 {
+            text-align: center;
+            position: relative;
+            right: -600px;
+            top: -445px;
+            background-color: lightgray;
+            width: 250px;
+            height: 400px;
+            .display-3 {
+                font-size: 15px;
+            }
+            .display-4 {
+                font-size: 15px;
+            }
+        }
+        .item3 {
+            text-align: center;
+            position: relative;
+            right: -900px;
+            top: -865px;
+            background-color: lightgray;
+            width: 250px;
+            height: 400px;
+            .display-3 {
+                font-size: 15px;
+            }
+            .display-4 {
+                font-size: 15px;
+            }
+        }
+        .item4 {
+            text-align: center;
+            position: relative;
+            right: -300px;
+            top: -840px;
+            background-color: lightgray;
+            width: 250px;
+            height: 400px;
+            .display-3 {
+                font-size: 15px;
+            }
+            .display-4 {
+                font-size: 15px;
+            }
+        }
+        .item5 {
+            text-align: center;
+            position: relative;
+            right: -600px;
+            top: -1260px;
+            background-color: lightgray;
+            width: 250px;
+            height: 400px;
+            .display-3 {
+                font-size: 15px;
+            }
+            .display-4 {
+                font-size: 15px;
+            }
+        }
+        .item6 {
+            text-align: center;
+            position: relative;
+            right: -900px;
+            top: -1680px;
+            background-color: lightgray;
+            width: 250px;
+            height: 400px;
+            .display-3 {
+                font-size: 15px;
+            }
+            .display-4 {
+                font-size: 15px;
+            }
+        }
+    }
+}
