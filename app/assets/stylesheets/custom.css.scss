@@ -1,13 +1,184 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-.jumbotron{
-  align-items: center;
+/* homepage */
+
+.jumbotron {
+  background-color: lightgray;
+  font-family: "Courier New", Times, serif;
+  width: 850px;
+  .display-3{
+    font-size: 40px;
+    }
+  .lead {
+    font-size: 15px;
+  }
+  .subtitle_button {
+      font-size: 15px;
+      .my-4 {
+          font-size: 15px;
+      }
+  }
 }
 
-header {
+.jumbotron2 {
+  position: relative;
+  right: 300px;
+  top: 13.3px;
+  background-color: lightgray;
+  font-family: "Courier New", Times, serif;
+  width: 250px;
+  height: 140px;
+  .display-3{
+    font-size: 20px;
+    }
+  .lead {
+    font-size: 7.5px;
+  }
+  .subtitle_button {
+      font-size: 7.5px;
+      .my-4 {
+          font-size: 7.5px;
+      }
+  }
+}
+
+.jumbotron3 {
+  position: relative;
+  top: -146.7px;
+  background-color: lightgray;
+  font-family: "Courier New", Times, serif;
+  width: 250px;
+  height: 140px;
+  .display-3{
+    font-size: 20px;
+    }
+  .lead {
+    font-size: 7.5px;
+  }
+  .subtitle_button {
+      font-size: 7.5px;
+      .my-4 {
+          font-size: 7.5px;
+      }
+  }
+}
+
+.jumbotron4 {
+  position: relative;
+  left: 300px;
+  top: -306.7px;
+  background-color: lightgray;
+  font-family: "Courier New", Times, serif;
+  width: 250px;
+  height: 140px;
+  .display-3{
+    font-size: 20px;
+    }
+  .lead {
+    font-size: 7.5px;
+  }
+  .subtitle_button {
+      font-size: 7.5px;
+      .my-4 {
+          font-size: 7.5px;
+      }
+  }
+}
+
+.shopmenjumbo {
+  position: relative;
+  right: 225px;
+  top: -275px;
+  background-color: lightgray;
+  font-family: "Courier New", Times, serif;
+  width: 399.165px;
+  height: 500px;
+  .display-3 {
+    font-size: 20px;  
+  }
+}
+
+.shopwomenjumbo {
+  position: relative;
+  left: 225px;
+  top: -795px;
+  background-color: lightgray;
+  font-family: "Courier New", Times, serif;
+  width: 399.165px;
+  height: 500px;
+  .display-3 {
+      font-size: 20px;
+  }
+}
+
+.shopbrandjumbo {
+  position: relative;
+  top: -781.7px;
+  background-color: lightgray;
+  font-family: "Courier New", Times, serif;
+  width: 850px;
+  height: 400px;
+  .display-3 {
+      font-size: 20px;
+  }
+}
+/* header */
+#header {
     vertical-align: middle;
 }
+
+a:link {
+    color: black;
+    font-family: "Courier New", Times, serif;
+}
+
+a:visited {
+    color: black;
+    font-family: "Courier New", Times, serif;
+}
+
+a:hover {
+    color: darkgray;
+    text-decoration: none;
+    font-family: "Courier New", Times, serif;
+}
+
+a:active {
+    color: darkgray;
+    font-family: "Courier New", Times, serif;
+}
+
+.left {
+    position: relative;
+    top: 2px;
+    left: 10px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.right {
+    position: relative;
+    top: -15px;
+    left: -10px;
+    text-align: right;
+    font-size: 12px;
+}
+
+.center {
+    text-align: center;
+}
+
+.mainlink {
+    font-size: 40px;
+}
+
+.mainpath {
+    text-align: center;
+    font-size: 15px;
+}
+
+/* footer */ 
 
 #footerLinks {
     position:relative;
@@ -19,3 +190,286 @@ header {
     position:relative;
     right:-15px;
 }
+
+.recently_viewed1{
+  position: relative;
+  right: -30px;
+  top: 10px;
+  background-color: lightgray;
+  font-family: "Courier New", Times, serif;
+  width: 200px;
+  height: 300px;
+  .display-3 {
+      text-align: center;
+      font-size: 12px;
+  }
+  .display-4 {
+      text-align: center;
+      font-size: 12px;
+  }
+}
+
+.recently_viewed2 {
+  position: relative;
+  right: -260px;
+  top: -310px;
+  background-color: lightgray;
+  font-family: "Courier New", Times, serif;
+  width: 200px;
+  height: 300px;
+  .display-3 {
+      text-align: center;
+      font-size: 12px;
+  }
+  .display-4 {
+      text-align: center;
+      font-size: 12px;
+  }
+}
+
+.recently_viewed3 {
+  position: relative;
+  right: -490px;
+  top: -630px;
+  background-color: lightgray;
+  font-family: "Courier New", Times, serif;
+  width: 200px;
+  height: 300px;
+  .display-3 {
+      text-align: center;
+      font-size: 12px;
+  }
+  .display-4 {
+      text-align: center;
+      font-size: 12px;
+  }
+}
+
+.recently_viewed4 {
+  position: relative;
+  right: -720px;
+  top: -950px;
+  background-color: lightgray;
+  font-family: "Courier New", Times, serif;
+  width: 200px;
+  height: 300px;
+  .display-3 {
+      text-align: center;
+      font-size: 12px;
+  }
+  .display-4 {
+      text-align: center;
+      font-size: 12px;
+  }
+}
+
+.recently_viewed5 {
+  position: relative;
+  right: -950px;
+  top: -1270px;
+  background-color: lightgray;
+  font-family: "Courier New", Times, serif;
+  width: 200px;
+  height: 300px;
+  .display-3 {
+      text-align: center;
+      font-size: 12px;
+  }
+  .display-4 {
+      text-align: center;
+      font-size: 12px;
+  }
+}
+
+.recently_viewed6 {
+  position: relative;
+  right: -1180px;
+  top: -1590px;
+  background-color: lightgray;
+  font-family: "Courier New", Times, serif;
+  width: 200px;
+  height: 300px;
+  .display-3 {
+      text-align: center;
+      font-size: 12px;
+  }
+  .display-4 {
+      text-align: center;
+      font-size: 12px;
+  }
+}
+
+#footerLinks {
+    position: relative;
+    top: -1500px;
+}
+
+/* shop items */
+
+.sidenav {
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+
+.items_shop {
+    .item1 {
+        text-align: center;
+        position: relative;
+        right: -300px;
+        top: -25px;
+        background-color: lightgray;
+        width: 250px;
+        height: 400px;
+        .display-3 {
+            font-size: 15px;
+        }
+        .display-4 {
+            font-size: 15px;
+        }
+        
+    }
+    .item2 {
+        text-align: center;
+        position: relative;
+        right: -600px;
+        top: -445px;
+        background-color: lightgray;
+        width: 250px;
+        height: 400px;
+        .display-3 {
+            font-size: 15px;
+        }
+        .display-4 {
+            font-size: 15px;
+        }
+    }
+    .item3 {
+        text-align: center;
+        position: relative;
+        right: -900px;
+        top: -865px;
+        background-color: lightgray;
+        width: 250px;
+        height: 400px;
+        .display-3 {
+            font-size: 15px;
+        }
+        .display-4 {
+            font-size: 15px;
+        }
+    }
+    .item4 {
+        text-align: center;
+        position: relative;
+        right: -300px;
+        top: -840px;
+        background-color: lightgray;
+        width: 250px;
+        height: 400px;
+        .display-3 {
+            font-size: 15px;
+        }
+        .display-4 {
+            font-size: 15px;
+        }
+    }
+    .item5 {
+        text-align: center;
+        position: relative;
+        right: -600px;
+        top: -1260px;
+        background-color: lightgray;
+        width: 250px;
+        height: 400px;
+        .display-3 {
+            font-size: 15px;
+        }
+        .display-4 {
+            font-size: 15px;
+        }
+    }
+    .item6 {
+        text-align: center;
+        position: relative;
+        right: -900px;
+        top: -1680px;
+        background-color: lightgray;
+        width: 250px;
+        height: 400px;
+        .display-3 {
+            font-size: 15px;
+        }
+        .display-4 {
+            font-size: 15px;
+        }
+    }
+}
+
+/* brands */
+
+.brandsidebar {
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+
+/* explore */
+.items_explore {
+    text-align: center;
+    .item1 {
+        background-color: lightgray;
+        font-family: "Courier New", Times, serif;
+        height: 300px;
+        width: 850px;
+        .display-3{
+            font-size: 15px;
+        }
+        .lead {
+            font-size: 15px;
+        }
+        .subtitle_button {
+            font-size: 15px;
+            .my-4 {
+              font-size: 15px;
+             }
+        }
+    }
+    .item2 {
+        background-color: lightgray;
+        font-family: "Courier New", Times, serif;
+        height: 300px;
+        width: 850px;
+        .display-3{
+            font-size: 15px;
+        }
+        .lead {
+            font-size: 15px;
+        }
+        .subtitle_button {
+            font-size: 15px;
+            .my-4 {
+              font-size: 15px;
+             }
+        }
+    }
+    .item3 {
+        background-color: lightgray;
+        font-family: "Courier New", Times, serif;
+        height: 300px;
+        width: 850px;
+        .display-3{
+            font-size: 15px;
+        }
+        .lead {
+            font-size: 15px;
+        }
+        .subtitle_button {
+            font-size: 15px;
+            .my-4 {
+              font-size: 15px;
+             }
+        }
+    }
+}
+
